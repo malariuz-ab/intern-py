@@ -29,14 +29,17 @@
 # 4
 import os
 # print(os.listdir())
+import sys
+# command = sys.argv[1]
+# if command == 'ping':
+#     print('Pong')
+# elif command == 'list':
+#     print(os.listdir())
+# elif command == 'name':
+#     name = sys.argv[2]
+#     print(name)
 
 # 5
-import sys
-command = sys.argv[1]
-if command == 'ping':
-    print('Pong')
-elif command == 'list':
-    print(os.listdir())
-elif command == 'name':
-    name = sys.argv[2]
-    print(name)
+a = 2
+b = '3'
+tr

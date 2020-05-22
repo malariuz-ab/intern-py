@@ -112,3 +112,24 @@ result = {pair[0]: pair[1] for pair in pairs}
 print(result)
 randomN = [random.randint(1, 100) for i in range(10)] # a focus
 print(randomN)
+
+# Exeptions
+a = 3
+b = '4'
+try:
+    print(a + b)
+except Exception as e:
+    print('Error: ', e)
+else:
+    print('Everything is awesome! Any error isnt entertained')
+finally:
+    print('I\'m always run')
+# We can generate exeption
+print('Begin')
+#raise Exception('Something goes wrong')
+print('End')
+
+# Insert verbials
+a = 2
+b =3
+string = f'<div>{a}</div>{b}'
